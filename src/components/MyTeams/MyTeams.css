@@ -1,0 +1,109 @@
+.myteams-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    min-height: 70vh;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .teams-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .teamcard {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: calc(30% - 20px); /* Adjust width for responsiveness */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .teamcard:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  .teamcard h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .teamcard p {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .teamcard {
+      width: calc(45% - 20px); /* Adjust width for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .teamcard {
+      width: calc(100% - 20px); /* Full width for mobile screens */
+    }
+  }
+  
+  /* TeamDetails.css */
+
+.team-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-details h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.team-details h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.team-details p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+.team-details .team-details-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.team-details .team-details-ul li {
+  padding: 10px;
+  background-color: #fff;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.team-details .team-details-ul li:hover {
+  background-color: #f0f0f0;
+}
+
+.team-details .loading, 
+.team-details .error {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #e74c3c; /* red for error */
+}

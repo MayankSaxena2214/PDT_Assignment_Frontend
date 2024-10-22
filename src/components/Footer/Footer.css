@@ -1,0 +1,64 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(51, 45, 45);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    color:WHITE;
+    width: 100%;
+    p{
+        font-size: 1.5rem;
+    }
+}
+.footer-links{
+    border-top: 0.2px solid white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    .insta-icon{
+        height: 30px;
+        width: 30px;
+        color:magenta;
+
+    }
+    
+    .whatsapp-icon{
+        height: 30px;
+        width: 30px;
+        color:lime;
+    }
+    .github-icon{
+        height: 30px;
+        width: 30px;
+        color:white;
+
+    }
+    .twitter-icon{
+        height: 30px;
+        width: 30px;
+        color:rgb(1, 69, 255);
+    }
+}
+.footer-policy{
+    /* border-top: 1px solid white; */
+    display: flex;
+    width: 100%;
+    gap:20px;
+    color:white;
+    justify-content: center;
+    p{
+        color:white;
+        font-size: 1rem;
+    }
+    .policy-icon{
+        color:white;
+    }
+}

@@ -1,0 +1,102 @@
+/* .players-container-both{
+    display: flex;
+    justify-content: space-evenly;
+
+    @media(max-width: 768px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.maketeam-container h1{
+    text-align: center;
+
+}
+.maketeam-container h4{
+    text-align: center;
+    font-size: 20px;
+} */
+.players-container-both {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width: 768px) {
+    .players-container-both {
+        flex-direction: column;
+        
+    }
+}
+
+.maketeam-container h1 {
+    text-align: center;
+}
+
+.maketeam-container h4 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.team-name-input {
+    width: 80%; /* Full width of the container */
+    padding: 10px; /* Padding inside the input field */
+    margin: 20px 0; /* Margin to create space above and below */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for the input text */
+}
+
+.players-container {
+    width: 45%; /* Each player container takes up 45% of the space */
+    margin: 10px; /* Margin for spacing */
+
+}
+
+.player-card {
+    display: flex; /* Flexbox for player card alignment */
+    align-items: center; /* Center align items vertically */
+    margin: 10px 0; /* Space between player cards */
+}
+
+.player-card input {
+    margin-right: 10px; /* Space between checkbox and player name */
+}
+
+.selected-players {
+    margin-top: 20px; /* Space above selected players section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-player {
+    font-weight: bold; /* Bold font for selected players */
+    margin: 5px 0; /* Space between selected players */
+    margin:0 auto;
+    
+}
+
+.create-team-button {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Space above button */
+    font-size: 16px; /* Font size for button */
+    margin-bottom: 20px;
+    
+
+}
+
+.create-team-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.message {
+    color: red; /* Red color for messages */
+    text-align: center; /* Center align message text */
+    margin-top: 10px; /* Space above message */
+}

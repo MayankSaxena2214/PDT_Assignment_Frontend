@@ -1,0 +1,39 @@
+.player-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.player-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* height: 600px; */
+    box-shadow: 0 0 3px black;
+    margin-top: 20px;
+
+}
+.player-image{
+    padding-left: 10px;
+    padding-right: 10px;
+    /* width: 250px; */
+    height: 300px;
+    border-bottom: 1px solid black;
+    img{
+        width: 250px;
+        border-radius: 50%;
+        height: 300px;
+    }
+}
+.player-description{
+    padding:10px;
+}
+.player-description h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.player-description p{
+    font-size: 18px;
+}
